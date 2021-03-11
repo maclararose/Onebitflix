@@ -1,0 +1,9 @@
+default: &default
+ adapter: postgresql
+ encoding: unicode
+ host: localhost
+ username: postgres
+ password: postgres
+development:
+ <<: *default
+ database: onebitflix_development
